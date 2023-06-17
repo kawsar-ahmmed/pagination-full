@@ -53,6 +53,7 @@ const Shop = () => {
         setCart(newCart);
         addToDb(selectedProduct._id);
     }
+
     return (
         <div className='shop-container'>
             <div className="products-container">
